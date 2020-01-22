@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SARFConfig>
+	<BusinessComponent>com.netapp.sapCRM.businesscomponents</BusinessComponent>
+	<TestSetFileName>TestCases_sapCRM</TestSetFileName>
+	<TestCaseSheetName>TestCases</TestCaseSheetName>
+	<ObjectRepositories>sapCRM_ObjectRepository</ObjectRepositories>
+	<ResultFolder>TestResults</ResultFolder>
+	<ImplicitWaitinSeconds>0</ImplicitWaitinSeconds>
+	<PageLoadTimeoutinSeconds>10</PageLoadTimeoutinSeconds>
+	<ScriptTimeoutinSeconds>60</ScriptTimeoutinSeconds>
+	<WebDriverWaitSeconds>10</WebDriverWaitSeconds>
+	<PollingMilliSeconds>60</PollingMilliSeconds>
+	<ScrollTimeOut>60</ScrollTimeOut>
+	<RemoteExecution>false</RemoteExecution>
+	<GridHubIPAddress>10.102.27.27</GridHubIPAddress>
+	<GridHubPort>4444</GridHubPort>
+	<AplicationURL>	http://qcrmui.corp.netapp.com/sap(bD1lbiZjPTUwMCZkPW1pbg==)/bc/bsp/sap/crm_ui_start/default.htm</AplicationURL>
+	<FirefoxBinaryPath>C:\Program Files (x86)\Mozilla Firefox\firefox.exe</FirefoxBinaryPath>
+	<FirefoxDriverPath>./drivers/geckodriver.exe</FirefoxDriverPath>
+	<FirefoxProfileName>Firefox Profile</FirefoxProfileName>
+	<IEServerPath>drivers/ie.exe</IEServerPath>
+	<ChromeServerPath>drivers/chromedriver.exe</ChromeServerPath>
+	<ChromeBinaryPath/>
+	<CognitoBrowser>Yes</CognitoBrowser>
+	<ProxyHost/>
+	<ProxyPort/>
+	<DownloadPath>C:\SAPCRMDownloads</DownloadPath>
+	<ElementHighLightOn>true</ElementHighLightOn>
+	<ElementAutoScrollOn>true</ElementAutoScrollOn>
+	<ExecutionMachines>/conf/machines.xml</ExecutionMachines>
+	<SendMail>false</SendMail>
+    <ExecutionMobileDevices>/conf/mobileDevices.xml</ExecutionMobileDevices>
+	<SendMailTo>sss.bbb@ust-global.com</SendMailTo>
+	<SendMailFrom>automation.ustglobal@gmail.com,ustglobal@1234</SendMailFrom>
+	</SARFConfig>
